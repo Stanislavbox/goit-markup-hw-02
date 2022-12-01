@@ -1,0 +1,200 @@
+            /* _______BASIC STYLE_______ */
+
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+:root{
+      --text: #434455;
+      --sub-text: #8e8f99;
+      --active: #4d5ae5;
+      --dark: #2e2f42;
+      --green: #31d0aa;
+      --accent: #e7e9fc;
+      --iight: #f4f4fd;
+}     
+
+body {
+      color: var(--text);
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+
+      background-color: #ffffff;
+}
+
+h1, h2, h3{
+      font-weight: 600;
+}
+h1{
+      font-size: 56px;
+      color: #ffffff;
+      line-height: 1.07;
+      text-align: center;
+}
+
+h2{
+      color: var(--dark);
+      font-size: 36px;
+      line-height: 1.11;
+      text-align: center;
+
+}
+
+h3{
+      font-size: 20px;
+      color: var(--dark);
+      line-height: 1.2;
+}
+
+.header .current{
+      color: var(--active);
+}
+ul{
+      list-style: none;
+}
+
+            /* ///////STUDIO I////// */
+
+            /* _______HEADER_______ */
+
+
+.logo{
+
+      color: var(--dark);
+      font-family: 'Raleway';
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 1.33;
+      letter-spacing: 0.03em;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      cursor: pointer;
+}
+
+.logo span{
+      color: var(--active);
+}
+
+
+.link{
+      text-decoration: none;
+      color: inherit;
+}
+.header .link:hover,
+.header .link:focus{
+      color: var(--active);
+}
+
+nav .link{
+font-weight: 600;
+color: var(--dark);
+text-decoration: none;
+}
+
+            /* _______HERO_______ */
+
+
+.hero{
+      background-color: var(--dark);
+}
+
+.btn{
+       font-family: 'Roboto';
+font-weight: 600;
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: var(--active);
+
+cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus{
+      color: var(--active);
+      background-color: #fff;
+}
+
+            /* _______FEATURE_______ */
+
+
+            /* _______OUR WORK_______ */
+
+            /* _______OUR TEAM_______ */
+.our-team{
+      background-color: var(--iight);
+}
+
+            /* _______FOOTER_______ */
+
+
+.footer{
+      background-color: var(--dark);
+}
+
+.footer .logo{
+      color: var(--iight);
+      line-height: 1.17;
+}
+
+.footer-text{
+      color: var(--accent);
+}
+
+            /* /////////PORTFOLIO II/////// */
+
+.portfolio h2{
+      font-size: 20px;
+      color: var(--dark);
+      line-height: 1.2;
+      text-align: left;
+}
+
+
+.portfolio .btn{
+      color: var(--active);
+      background-color: var(--accent);
+      line-height: 1.5;
+}
+
+.portfolio .btn:hover,
+.portfolio .btn:focus{
+      background-color: var(--active);
+      color: #ffffff;
+}
+
+.sub-text{
+      color: var(--iight);
+      background-color: var(--active);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
