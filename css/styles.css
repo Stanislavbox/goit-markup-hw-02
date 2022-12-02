@@ -16,8 +16,6 @@ font-family: 'Roboto', sans-serif; */
 body {
       color: var(--text);
       font-family: 'Roboto', sans-serif;
-      font-style: normal;
-      font-weight: 400;
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
@@ -25,17 +23,17 @@ body {
       background-color: #ffffff;
 }
 
-h1, h2, h3{
-      font-weight: 600;
+.hero-title, .title, .sub-title{
+      font-weight: 500;
 }
-h1{
+.hero-title{
       font-size: 56px;
       color: #ffffff;
       line-height: 1.07;
       text-align: center;
 }
 
-h2{
+.title{
       color: var(--dark);
       font-size: 36px;
       line-height: 1.11;
@@ -43,16 +41,13 @@ h2{
 
 }
 
-h3{
+.sub-title{
       font-size: 20px;
       color: var(--dark);
       line-height: 1.2;
 }
 
-.header .current{
-      color: var(--active);
-}
-ul{
+.list{
       list-style: none;
 }
 
@@ -64,7 +59,7 @@ ul{
 .logo{
 
       color: var(--dark);
-      font-family: 'Raleway';
+      font-family: 'Raleway', sans-serif;
       font-weight: 800;
       font-size: 18px;
       line-height: 1.33;
@@ -82,42 +77,46 @@ ul{
 
 .link{
       text-decoration: none;
-      color: inherit;
+      color: var(--dark);
 }
 .header .link:hover,
 .header .link:focus{
+      color: var(--text);
+}
+
+.header .link:active{
       color: var(--active);
 }
 
-nav .link{
-font-weight: 600;
-color: var(--dark);
-text-decoration: none;
+.main-nav .link{
+      font-weight: 500;
+      color: var(--dark);
+      text-decoration: none;
 }
 
+.main-nav .link.current{
+      border-bottom: 2px solid var(--active);
+}
             /* _______HERO_______ */
-
 
 .hero{
       background-color: var(--dark);
 }
 
 .btn{
-       font-family: 'Roboto';
-font-weight: 600;
-font-size: 16px;
-line-height: 1.2;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-background-color: var(--active);
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.2;
+      letter-spacing: 0.04em;
+      color: #ffffff;
+      background-color: var(--active);
 
-cursor: pointer;
+      cursor: pointer;
 }
 
-.btn:hover,
-.btn:focus{
-      color: var(--active);
-      background-color: #fff;
+.btn:active{
+      background-color: #404bbf;
 }
 
             /* _______FEATURE_______ */
@@ -126,12 +125,12 @@ cursor: pointer;
             /* _______OUR WORK_______ */
 
             /* _______OUR TEAM_______ */
+
 .our-team{
       background-color: var(--iight);
 }
 
             /* _______FOOTER_______ */
-
 
 .footer{
       background-color: var(--dark);
@@ -148,7 +147,7 @@ cursor: pointer;
 
             /* /////////PORTFOLIO II/////// */
 
-.portfolio h2{
+.portfolio .title{
       font-size: 20px;
       color: var(--dark);
       line-height: 1.2;
